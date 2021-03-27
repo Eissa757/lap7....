@@ -1,22 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package postfix;
-
-/**
- *
- * @author Taif
- */
-public class Postfix {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        import java.util.Stack;
+*/import java.util.Stack;
 public class Postfix {
     // Java proram to evaluate value of a postfix expression
         // Method to evaluate value of a postfix expression
@@ -72,6 +54,3 @@ public class Postfix {
             System.out.println("postfix evaluation: "+evaluatePostfix(exp));
         }
     }
-    }
-    
-}
